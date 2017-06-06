@@ -19,6 +19,8 @@ public class ShipwreckStub {
 		wrecks.put(2L, b);
 		Shipwreck c = new Shipwreck(3L, "S.S. Yongala", "A luxury passenger ship wrecked on the great barrier reef", "FAIR", 50, 44.12, 138.44, 1994);
 		wrecks.put(3L, c);
+		Shipwreck d = new Shipwreck(4L, "S.S. Jhomla", "A luxury passenger ship wrecked", "NOT BAD", 50, 44.12, 138.44, 1994);
+		wrecks.put(4L, d);
 	}
 
 	public static List<Shipwreck> list() {
